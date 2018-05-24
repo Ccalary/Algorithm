@@ -1,5 +1,5 @@
 //
-//  SummaryRangesVC.swift
+//  SummaryRanges.swift
 //  Algorithm
 //
 //  Created by caohouhong on 2018/5/24.
@@ -10,15 +10,10 @@
 //  Example
 //  Input:[0,1,2,5,6,8]
 //  Output:["0->2","5->6","8"]
-
+//  Difficulty:Medium
 import UIKit
 
-class SummaryRangesVC: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
+class SummaryRanges {
     /*
      第一次的解法
      1、先计算数组为空或者元素数1个的情况

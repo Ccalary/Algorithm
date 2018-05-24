@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D178F0320B6845500087DCD /* FlippingAnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D178F0220B6845500087DCD /* FlippingAnImage.swift */; };
 		0DB3A9CE20B64ECA00C42684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB3A9CD20B64ECA00C42684 /* AppDelegate.swift */; };
 		0DB3A9D020B64ECA00C42684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB3A9CF20B64ECA00C42684 /* ViewController.swift */; };
 		0DB3A9D320B64ECA00C42684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3A9D120B64ECA00C42684 /* Main.storyboard */; };
 		0DB3A9D520B64ECC00C42684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3A9D420B64ECC00C42684 /* Assets.xcassets */; };
 		0DB3A9D820B64ECC00C42684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3A9D620B64ECC00C42684 /* LaunchScreen.storyboard */; };
-		0DB3A9E220B6512700C42684 /* SummaryRangesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB3A9E120B6512700C42684 /* SummaryRangesVC.swift */; };
+		0DB3A9E220B6512700C42684 /* SummaryRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB3A9E120B6512700C42684 /* SummaryRanges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D178F0220B6845500087DCD /* FlippingAnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippingAnImage.swift; sourceTree = "<group>"; };
 		0DB3A9CA20B64ECA00C42684 /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB3A9CD20B64ECA00C42684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DB3A9CF20B64ECA00C42684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +25,7 @@
 		0DB3A9D420B64ECC00C42684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DB3A9D720B64ECC00C42684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DB3A9D920B64ECC00C42684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DB3A9E120B6512700C42684 /* SummaryRangesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryRangesVC.swift; sourceTree = "<group>"; };
+		0DB3A9E120B6512700C42684 /* SummaryRanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryRanges.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D178F0120B683E600087DCD /* 832. Flipping an Image */ = {
+			isa = PBXGroup;
+			children = (
+				0D178F0220B6845500087DCD /* FlippingAnImage.swift */,
+			);
+			path = "832. Flipping an Image";
+			sourceTree = "<group>";
+		};
 		0DB3A9C120B64ECA00C42684 = {
 			isa = PBXGroup;
 			children = (
@@ -70,17 +80,18 @@
 		0DB3A9DF20B650DA00C42684 /* Questions */ = {
 			isa = PBXGroup;
 			children = (
-				0DB3A9E020B6510300C42684 /* 228.SummaryRanges */,
+				0DB3A9E020B6510300C42684 /* 228.Summary Ranges */,
+				0D178F0120B683E600087DCD /* 832. Flipping an Image */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
 		};
-		0DB3A9E020B6510300C42684 /* 228.SummaryRanges */ = {
+		0DB3A9E020B6510300C42684 /* 228.Summary Ranges */ = {
 			isa = PBXGroup;
 			children = (
-				0DB3A9E120B6512700C42684 /* SummaryRangesVC.swift */,
+				0DB3A9E120B6512700C42684 /* SummaryRanges.swift */,
 			);
-			path = 228.SummaryRanges;
+			path = "228.Summary Ranges";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +167,8 @@
 			files = (
 				0DB3A9D020B64ECA00C42684 /* ViewController.swift in Sources */,
 				0DB3A9CE20B64ECA00C42684 /* AppDelegate.swift in Sources */,
-				0DB3A9E220B6512700C42684 /* SummaryRangesVC.swift in Sources */,
+				0DB3A9E220B6512700C42684 /* SummaryRanges.swift in Sources */,
+				0D178F0320B6845500087DCD /* FlippingAnImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
