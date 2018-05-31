@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0D178F0320B6845500087DCD /* FlippingAnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D178F0220B6845500087DCD /* FlippingAnImage.swift */; };
+		0D214D2620BFF227008F1EA2 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D214D2520BFF227008F1EA2 /* LengthOfLastWord.swift */; };
+		0D32EF1220BB9D1F00DDEB59 /* MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D32EF1120BB9D1F00DDEB59 /* MaxConsecutiveOnes.swift */; };
+		0D41F73420BB950700B35C3A /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41F73320BB950700B35C3A /* PlusOne.swift */; };
 		0DB3A9CE20B64ECA00C42684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB3A9CD20B64ECA00C42684 /* AppDelegate.swift */; };
 		0DB3A9D020B64ECA00C42684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB3A9CF20B64ECA00C42684 /* ViewController.swift */; };
 		0DB3A9D320B64ECA00C42684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB3A9D120B64ECA00C42684 /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		0D178F0220B6845500087DCD /* FlippingAnImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippingAnImage.swift; sourceTree = "<group>"; };
+		0D214D2520BFF227008F1EA2 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
+		0D32EF1120BB9D1F00DDEB59 /* MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
+		0D41F73320BB950700B35C3A /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		0DB3A9CA20B64ECA00C42684 /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB3A9CD20B64ECA00C42684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DB3A9CF20B64ECA00C42684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +51,30 @@
 				0D178F0220B6845500087DCD /* FlippingAnImage.swift */,
 			);
 			path = "832. Flipping an Image";
+			sourceTree = "<group>";
+		};
+		0D214D2420BFF1ED008F1EA2 /* 58. Length of Last Word */ = {
+			isa = PBXGroup;
+			children = (
+				0D214D2520BFF227008F1EA2 /* LengthOfLastWord.swift */,
+			);
+			path = "58. Length of Last Word";
+			sourceTree = "<group>";
+		};
+		0D32EF1020BB9D0A00DDEB59 /* 485. Max Consecutive Ones */ = {
+			isa = PBXGroup;
+			children = (
+				0D32EF1120BB9D1F00DDEB59 /* MaxConsecutiveOnes.swift */,
+			);
+			path = "485. Max Consecutive Ones";
+			sourceTree = "<group>";
+		};
+		0D41F73220BB94D500B35C3A /* 66. Plus One */ = {
+			isa = PBXGroup;
+			children = (
+				0D41F73320BB950700B35C3A /* PlusOne.swift */,
+			);
+			path = "66. Plus One";
 			sourceTree = "<group>";
 		};
 		0DB3A9C120B64ECA00C42684 = {
@@ -80,6 +110,9 @@
 		0DB3A9DF20B650DA00C42684 /* Questions */ = {
 			isa = PBXGroup;
 			children = (
+				0D214D2420BFF1ED008F1EA2 /* 58. Length of Last Word */,
+				0D32EF1020BB9D0A00DDEB59 /* 485. Max Consecutive Ones */,
+				0D41F73220BB94D500B35C3A /* 66. Plus One */,
 				0DB3A9E020B6510300C42684 /* 228.Summary Ranges */,
 				0D178F0120B683E600087DCD /* 832. Flipping an Image */,
 			);
@@ -166,7 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DB3A9D020B64ECA00C42684 /* ViewController.swift in Sources */,
+				0D214D2620BFF227008F1EA2 /* LengthOfLastWord.swift in Sources */,
 				0DB3A9CE20B64ECA00C42684 /* AppDelegate.swift in Sources */,
+				0D32EF1220BB9D1F00DDEB59 /* MaxConsecutiveOnes.swift in Sources */,
+				0D41F73420BB950700B35C3A /* PlusOne.swift in Sources */,
 				0DB3A9E220B6512700C42684 /* SummaryRanges.swift in Sources */,
 				0D178F0320B6845500087DCD /* FlippingAnImage.swift in Sources */,
 			);
